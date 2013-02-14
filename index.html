@@ -6,8 +6,10 @@ language: en-GB-oed
 
 {% for post in paginator.posts %}
 <div class="center box">
-	<div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+	<div class="title">{{ post.title }}</div>
 	<div class="date">{{ post.date | date_to_long_string }}</div>
 	{{ post.content | truncate: 256 }}
+
+	<a href="{{ post.url }}">more</a>
 </div>
 {% endfor %}

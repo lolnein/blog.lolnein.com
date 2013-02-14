@@ -1,3 +1,4 @@
 destination: /srv/www/lolnein-blog/
 markdown: kramdown
 permalink: /:year/:month/:day/:title
+paginate: 10

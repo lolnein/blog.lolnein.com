@@ -3,7 +3,7 @@ layout: post
 title: Hello World
 ---
 
-Today is the official start of my web comic ‘lolnein’ and I am very
+Today is the official start of my web comic â€˜lolneinâ€™ and I am very
 excited to present my work to you.
 
 As I am not a native speaker of the English language, please forgive

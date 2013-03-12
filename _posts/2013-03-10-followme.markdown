@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Follow Me! Like Me! DO IT!
+title: Follow Me. Like Me. DO IT.
 ---
 
 You may have noticed that this website isn't quite done yet. 

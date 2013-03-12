@@ -8,7 +8,7 @@ language: en-GB-oed
 <div class="center box">
 	<div class="title">{{ post.title }}</div>
 	<div class="date">{{ post.date | date_to_long_string }}</div>
-	{{ post.content | truncate: 256 }}
+	{{ post.content | strip_html | truncate: 256 }}
 
 	<a href="{{ post.url }}">more</a>
 </div>

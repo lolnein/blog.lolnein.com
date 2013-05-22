@@ -9,6 +9,7 @@
 	color: inherit;
 	text-decoration: inherit;
 
+	border: none;
 	padding: 0;
 	margin: 0;
 	margin-collapse: collapse;
@@ -34,7 +35,7 @@ body {
 	width: 37.5mm;
 	float: left;
 
-	font: 400 32pt lolfont;
+	text-align: right;
 }
 
 #nav object {
@@ -44,12 +45,17 @@ body {
 .navelm {
 	border-right: 8pt solid #333333;
 
-	text-align: right;
 	text-transform: lowercase;
 
 	padding-top: 4pt;
 	padding-right: 10pt;
 	margin: 4pt 0;
+	font: 400 32pt lolfont;
+}
+
+.navsoc {
+	display: inline-block;
+	margin: 4pt 0 0 4pt;
 }
 
 a:link, a:visited {
@@ -78,12 +84,10 @@ a:hover, a:active {
 	width: 150mm;
 }
 
-#ext {
-	visibility: hidden;
-	background: #333333;
-	width: 37.5mm;
+#ads {
+	width: 160px;
+	height: 600px;
 	float: left;
-	min-height: 90mm;
 }
 
 .arrow {
@@ -92,21 +96,20 @@ a:hover, a:active {
 
 .box {
 	position: relative;
-	color: white;
-	background: #333333;
 	padding: 4pt;
 	min-height: 10mm;
 }
 
 .title {
-	font: 400 24pt lolfont;
+	font-size: 24pt;
 	text-transform: lowercase;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid #333;
+	line-height: 1em;
 }
 
 .date {
 	position: absolute;
-	top: 4pt;
+	top: 16pt;
 	right: 4pt;
 }
 
@@ -114,15 +117,23 @@ a:hover, a:active {
 	margin-top: 37.5mm;
 }
 
-p, table {
+p, iframe, table {
 	margin-top: 0.625em;
 }
 
-h1 {
-	font: 400 32pt lolfont;
+h1, h2, h3 {
 	text-transform: lowercase;
 	border-bottom: 1px solid #333;
 	margin-bottom: 0.3125em;
+	line-height: 1em;
+}
+
+h1 {
+	font-size: 32pt;
+}
+
+h2 {
+	font-size: 24pt;
 }
 
 .social {
@@ -131,4 +142,8 @@ h1 {
 
 .fb-like {
 	float: right;
+}
+
+p {
+	margin-bottom: 1.25em;
 }

@@ -101,7 +101,7 @@ a:hover, a:active {
 	min-height: 10mm;
 }
 
-.title {
+.title, .title a {
 	font-size: 24pt;
 	text-transform: lowercase;
 	border-bottom: 1px solid #333;

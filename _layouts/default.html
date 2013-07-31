@@ -4,7 +4,7 @@ language: en-GB-oed
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ page.language }}" xml:lang="{{ page.language}}">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:dc="http://purl.org/dc/elements/1.1/" lang="{{ page.language }}" xml:lang="{{ page.language}}">
 	<head>
 		<title>{{ page.title }}</title>
 
@@ -13,6 +13,8 @@ language: en-GB-oed
 
 		<link rel="icon" href="//lolnein.com/icon.png" type="image/png"/>
 		<link rel="icon" href="//lolnein.com/icon.svg" type="image/svg+xml"/>
+		<meta name="keywords" property="dc:subject" content="{% if page.keywords %}{{ page.keywords | join:', ' }}{% else %}lolnein, webcomic{% endif %}"/>
+		<meta name="author" property="dc:creator" content="Vincent Kunert"/>
 
 		<link rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/rdf" type="application/rdf+xml"/>
 		<link rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" type="text/html"/>
@@ -35,7 +37,7 @@ language: en-GB-oed
 		</script>
 	</head>
 	<body>
-		<div id="ads">
+		<div id="ads" class="robots-nocontent">
 			<script type="text/javascript">
 				google_ad_client = "ca-pub-5617436394365979";
 				google_ad_slot = "4150563055";

@@ -4,12 +4,15 @@ layout: default
 
 <div id="fb-root"></div>
 
-<div class="center box">
-	<div class="title">{{ page.title }}</div>
-	<div class="date">{{ page.date | date_to_long_string }}</div>
-	{{ content }}
+<div class="center box" itemscope="itemscope" itemtype="http://schema.org/Article">
+	<meta property="og:url" itemprop="url" content="http://blog.lolnein.com{{ page.url }}/"/>
+	<div class="title" itemprop="name" property="dc:title">{{ page.title }}</div>
+	<div class="date" itemprop="datePublished" property="dc:date" content="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_long_string }}</div>
+	<div itemprop="articleBody">
+		{{ content }}
+	</div>
 
-	<div class="social">
+	<div class="social robots-nocontent">
 		<a href="http://flattr.com/thing/1127625/lolnein" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this"/></a>
 		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://blog.lolnein.com{{ page.url }}/" data-via="lolnein" data-count="none">Tweet</a><script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		<div class="g-plusone" data-size="medium" data-annotation="none" data-href="http://blog.lolnein.com{{ page.url }}/"></div>
@@ -32,7 +35,7 @@ layout: default
 	</div>
 </div>
 
-<div id="disqus_thread" class="center"></div>
+<div id="disqus_thread" class="center robots-nocontent"></div>
 <script type="text/javascript">
 	var disqus_shortname = 'lolnein';
 	var disqus_identifier = '{{ page.id }}';

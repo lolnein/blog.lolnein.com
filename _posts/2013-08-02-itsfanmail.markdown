@@ -7,7 +7,7 @@ Guess what I found when I checked my postbox today? (PSST YOU DON'T HAVE TO GUES
 
 So I got my first fan mail and it made my day!
 It is a nice little postcard and it has a cute little drawing on it, too!
-Look at those high quality I took!
+Look at those high quality photos I took!
 
 ![It's fan mail](/images/itsfanmail.jpeg)
 

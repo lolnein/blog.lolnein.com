@@ -152,3 +152,8 @@ p {
 img {
 	max-width: 100%;
 }
+
+.caption {
+	font-size: 9pt;
+	font-style: italic;
+}

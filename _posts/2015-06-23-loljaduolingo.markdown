@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LOLJA: Duolingo
+title: LOLJA Duolingo
 ---
 
 ![duolingo_badgersausages](/images/duolingo_badgersausages.jpeg)

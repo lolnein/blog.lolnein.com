@@ -3,7 +3,7 @@ layout: post
 title: LOLJA Duolingo
 ---
 
-![duolingo_badgersausages](/images/duolingo_badgersausages.jpeg)
+![duolingo_badgersausages](/images/duolingo_badgersausages.png)
 This Danish course teaches you not only the language but apparently also about the hazards that await you in Denmark.
 
 

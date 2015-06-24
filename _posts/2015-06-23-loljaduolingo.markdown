@@ -5,8 +5,7 @@ title: LOLJA Duolingo
 
 ![‘Grævlingen slog min søster med pølserne.’ → ‘The badger hit my sister with the sausages.’](/images/duolingo_badgersausages.png)
 This Danish course teaches you not only the language but apparently also about the hazards that await you in Denmark.
-
-
+{: .caption}
 
 Haven't you always wanted to learn another language? But it just seems so time consuming and expensive and you already hated French in school? Yes? No, but you want to read on anyway? Well let me show you something:
 [Duolingo](https://www.duolingo.com/) is a website which helps you learn a language. For free! Without adds! At the moment you can choose from thirteen languages: 
